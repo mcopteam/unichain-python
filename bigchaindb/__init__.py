@@ -67,7 +67,7 @@ config = {
         'vote_pipeline.validate_processes_num':30,
         'vote_pipeline.ungroup_processes_num':20
     },
-    'order_api':'http://36.110.71.170:41',
+    'order_api':'http://192.168.0.249:41',
     'restore_server': {
         'bind': os.environ.get('BIGCHAINDB_RESTORE_SERVER_BIND') or 'localhost:{}'
             .format(unichain_config['server_config']['restore_server_port']),
